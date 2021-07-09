@@ -1,50 +1,7 @@
 [
   {
-    "email": "test@test.com"
-  },
-  {
-    "email": "asdf@aslkdfj.com",
-    "password": "password",
-    "id": "4cad493a"
-  },
-  {
-    "email": "t@t.com",
-    "password": "123123123",
-    "id": "6e3bb1ad"
-  },
-  {
-    "email": "amit@barletz.com",
-    "password": "123123123",
-    "id": "741b44c5"
-  },
-  {
-    "email": "asdf@test.com",
-    "password": "123456a",
-    "id": "a49f5b63"
-  },
-  {
-    "email": "test123@test.com",
-    "password": "p1p2p3p4",
-    "id": "a3cb8cf1"
-  },
-  {
-    "email": "t@test123.com",
-    "password": "c40d5d4c38c526a0ca61539a9671d1ba6e7c6789ae8f332cb552f606cd39f3ff967443f0b4d01ccab82e56d556bb4bbbb042e05ff56854111ad3fd11494ada3f.79e2354f0bb895b5}",
-    "id": "0964542b"
-  },
-  {
-    "email": "asdf@asdf.com",
-    "password": "a1d360c5a26d47a0bca5d37eb2fd6f02050554037a24a68ad003ea90a948270c510ea67e7ba93410be4dc41c607427e364ce9514e6dd781f97e16971e20e8597.132e9d20f6d4fbfa}",
-    "id": "585827fb"
-  },
-  {
-    "email": "test@t1.com",
-    "password": "b1e65942dcb371f13470f8911c6a87c6afdbc84bf3dda6313691192fb919eb89790ce38f08fced0a587ee1349278cb0f2bf53205e9808bd90fbfb8096fda5976.5f5cf0c3942f3a3c}",
-    "id": "045ffc9b"
-  },
-  {
-    "email": "amit@b1.com",
-    "password": "410763fa1517354f84b534ba067b9c31e50aacd3e85c4f67f6ca29fddaec2d4b7fafac7249f787002e376ee8b9cd878d0dce84584708e9f579c5d7cd9507dd3f.b1bd4579083f1c35}",
-    "id": "f81658ee"
+    "email": "test@test.com",
+    "password": "6e60a6ad08346cab1df0ec9b5f1d3f30fca6e1a04cc5448f97fbfe29afe51f5fa2fa9d625ea61f9ff11f1052e88467196d254f8b8ad10545cd92be9023a369aa.e96eecf782df8edd",
+    "id": "27ea1943"
   }
 ]
