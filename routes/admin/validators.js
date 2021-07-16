@@ -15,7 +15,10 @@ module.exports = {
         .custom((passwordConfirmation, { req }) => {
             if (req.body.password !== passwordConfirmation) {
                 throw new Error('Passwords must match');
+            } else {
+                return true;
             }
+
         }),
     emailExists: check('email').trim().normalizeEmail().isEmail().withMessage('Must provide a valid email')
         .custom(async (email) => {

@@ -3,5 +3,20 @@
     "email": "test@test.com",
     "password": "6e60a6ad08346cab1df0ec9b5f1d3f30fca6e1a04cc5448f97fbfe29afe51f5fa2fa9d625ea61f9ff11f1052e88467196d254f8b8ad10545cd92be9023a369aa.e96eecf782df8edd",
     "id": "27ea1943"
+  },
+  {
+    "email": "amit@barletz.com",
+    "password": "1d44c8b74ab25d2f2f96bb20e87bd6972fbe7bc77110d233331f636441c71d3c1f84d8d1ee1bcef219e3ad3253da8735b6fc987562561a43162a5edacb6ae95a.8e66a7ced12f66ec",
+    "id": "1fb3dc30"
+  },
+  {
+    "email": "amitb@gmail.com",
+    "password": "4dad3fac0110631e47644c08e0d18afd558b8370c25b233f09fa789bf851271ba88fd84f34ee36085cc2774820fbcbae2d05bd7aa2243102365c3a8711ee2dba.dab0c3284e758d60",
+    "id": "f1387361"
+  },
+  {
+    "email": "abar@gmail.com",
+    "password": "c71f8e642c13c36330d78be2c1f4c6cef6444a8860cc8735f6a34ce2c1d3e892433100e1a64f9f6e37a392c6856d775e4f8a293de2fd8350f137cad13d3aed65.1e49bbd74c01e54c",
+    "id": "10a6ac50"
   }
 ]

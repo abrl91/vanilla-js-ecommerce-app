@@ -55,7 +55,7 @@ router.post('/signin', [
     }
 
     const { email } = req.body;
-    const user = await usersRepo.getOneBy({email});
+    const user = await usersRepo.getOneBy({ email });
 
     req.session.userId = user.id;
     res.send('You Are Sign In');
