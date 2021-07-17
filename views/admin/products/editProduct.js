@@ -1,7 +1,7 @@
 const layout = require('../layout');
 const { getError}  = require('../../../utils/utils');
 
-module.exports = ({ errors, product }) => {
+module.exports = ({ product, errors }) => {
     return layout({
         content: `
       <div class="columns is-centered">

@@ -49,13 +49,32 @@ router.get('/admin/products/:id/edit', guard, async (req, res) => {
 
 router.post('/admin/products/:id/edit',
     guard,
-    upload.single('image'),
-    [requireTitle, requirePrice],
-    handleErrors(productEditTemplate),
+    upload.single('image'), [
+    requireTitle,
+    requirePrice
+    ], handleErrors(productEditTemplate, async (req) => {
+        const product = await productsRepo.getOne(req.params.id);
+        return { product };
+    }),
     async (req, res) => {
+        const changes = req.body;
 
+        if (req.file) {
+            changes.image = req.body.file.buffer.toString('base64');
+        }
 
+        try {
+            await productsRepo.update(req.params.id, changes);
+        } catch (error) {
+            return res.send('Could not find item');
+        }
 
+        res.redirect('/admin/products');
+});
+
+router.post('/admin/products/:id/delete', guard, async (req, res) => {
+    await productsRepo.delete(req.params.id);
+    res.redirect('/admin/products');
 });
 
 
