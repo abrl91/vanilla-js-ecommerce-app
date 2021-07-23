@@ -3,7 +3,7 @@ const multer                        = require('multer');
 const productsRepo                  = require('../../repositories/products');
 const productsIndexTemplate         = require('../../views/admin/products/index');
 const newProductTemplate            = require('../../views/admin/products/newProduct');
-const productEditTemplate            = require('../../views/admin/products/editProduct');
+const productEditTemplate           = require('../../views/admin/products/editProduct');
 const { handleErrors, guard }       = require('./middlewares');
 const { requireTitle,
         requirePrice }              = require('./validators');
