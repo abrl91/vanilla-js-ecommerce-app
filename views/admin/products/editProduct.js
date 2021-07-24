@@ -1,5 +1,5 @@
-const layout = require('../layout');
-const { getError}  = require('../../../utils/utils');
+const layout            = require('../layout');
+const { getError}       = require('../../../utils/utils');
 
 module.exports = ({ product, errors }) => {
     return layout({

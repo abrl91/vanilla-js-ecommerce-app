@@ -21,7 +21,6 @@ router.post('/cart/products', async (req, res) => {
 
     await cartsRepo.update(cart.id, { items: cart.items });
 
-
     res.redirect('/cart');
 });
 
@@ -50,6 +49,5 @@ router.post('/cart/products/delete', async (req, res) => {
 
     res.redirect('/cart');
 });
-
 
 module.exports = router;
